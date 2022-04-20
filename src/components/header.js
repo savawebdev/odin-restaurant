@@ -16,10 +16,10 @@ function header() {
   headerNav.classList.add("header-nav");
   headerElement.appendChild(headerNav);
 
-  const headerHomeLink = link("/", "header-nav-link", "homeBtn", "Home");
-  const headerMenuLink = link("/", "header-nav-link", "menuBtn", "Menu");
+  const headerHomeLink = link("#", "header-nav-link", "homeBtn", "Home");
+  const headerMenuLink = link("#", "header-nav-link", "menuBtn", "Menu");
   const headerContactLink = link(
-    "/",
+    "#",
     "header-nav-link",
     "contactBtn",
     "Contact"
