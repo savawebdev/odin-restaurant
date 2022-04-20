@@ -8,10 +8,6 @@ function main() {
   content.appendChild(mainElement);
 
   mainCard();
-
-  // const mainOverlay = document.createElement("div");
-  // mainOverlay.classList.add("main-overlay");
-  // mainElement.appendChild(mainOverlay);
 }
 
 export default main;
