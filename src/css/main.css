@@ -10,6 +10,38 @@
 .main {
   height: calc(100vh - 50px);
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: url(../assets/images/background.jpg);
   background-size: cover;
+}
+
+.main-overlay {
+  width: 100%;
+  height: calc(100vh - 50px);
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: rgba(166, 130, 255, 0.5);
+}
+
+.main-card {
+  width: 50%;
+  height: 80%;
+  background: #102e4a;
+  border-radius: 20px;
+  color: #55c1ff;
+}
+
+.card-title {
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card-info {
+  margin: 20px auto 0;
+  width: 70%;
+  text-align: justify;
 }
