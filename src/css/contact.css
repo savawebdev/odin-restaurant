@@ -1,0 +1,11 @@
+.contact-info {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.contact-location {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+}
