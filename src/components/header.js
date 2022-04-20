@@ -18,8 +18,13 @@ function header() {
 
   const headerHomeLink = link("/", "header-nav-link", "homeBtn", "Home");
   const headerMenuLink = link("/", "header-nav-link", "menuBtn", "Menu");
-  const headerAboutLink = link("/", "header-nav-link", "aboutBtn", "About");
-  headerNav.append(headerHomeLink, headerMenuLink, headerAboutLink);
+  const headerContactLink = link(
+    "/",
+    "header-nav-link",
+    "contactBtn",
+    "Contact"
+  );
+  headerNav.append(headerHomeLink, headerMenuLink, headerContactLink);
 }
 
 export default header;
