@@ -3,8 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #a682ff;
-  color: #102e4a;
+  background: #102e4a;
+  color: #55c1ff;
 }
 
 .header-nav {
@@ -14,7 +14,7 @@
 
 .header-nav-link {
   text-decoration: none;
-  color: #102e4a;
+  color: #55c1ff;
   font-size: 1.2rem;
   font-weight: bold;
 }
