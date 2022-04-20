@@ -1,0 +1,20 @@
+.header {
+  padding-block: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #102e4a;
+  color: #55c1ff;
+}
+
+.header-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: #55c1ff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
